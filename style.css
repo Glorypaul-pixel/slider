@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: purple;
+}
+
+i {
+  margin: 0 20rem;
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slider-icon {
+  border: white solid 6px;
+  width: 100%;
+  min-height: 100vh;
+
+  padding-top: 2rem;
+  position: relative;
+  background: url("./images/img1.jpg") cover no-repeat;
+}
